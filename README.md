@@ -31,3 +31,8 @@
 ### FyViewModel.swift
 
 网络请求库的运用例子
+
+### FyParams.swift
+
+主要用来配置请求参数
+
