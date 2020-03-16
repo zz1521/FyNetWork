@@ -25,7 +25,7 @@ extension FyApi:TargetType{
     var path: String {
         switch self {
         default:
-            return "api/music/search"
+            return FyUrls.searchMusic
         }
     }
     

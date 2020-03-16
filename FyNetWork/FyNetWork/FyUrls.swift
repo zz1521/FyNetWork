@@ -25,7 +25,10 @@ struct FyUrls {
         return FyUrls.service ? "https://v1.alapi.cn/" : "https://v1.alapi.cn/"
     }
     
-    
+    //搜索歌曲
+   static var searchMusic: String {
+        return "api/music/search"
+    } 
     
     
     
