@@ -43,9 +43,8 @@ extension FyApi:TargetType{
     var task: Task {
         switch self {
         case .search(let keyword):
-            var params:[String:Any] = [String:Any]()
-            params["keyword"] = keyword
-            return .requestParameters(parameters: params, encoding: URLEncoding.default)
+            let params = FyParams.init(params: ["keyword" : keyword])
+            return .requestParameters(parameters: params.allParams, encoding: URLEncoding.default)
         default:
             return .requestPlain
         }

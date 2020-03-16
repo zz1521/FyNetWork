@@ -22,6 +22,7 @@
 		0B150915241F365A009AD1A4 /* FyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B150914241F365A009AD1A4 /* FyResponse.swift */; };
 		0B150919241F3C16009AD1A4 /* FyNetError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B150918241F3C16009AD1A4 /* FyNetError.swift */; };
 		0B15091B241F41C1009AD1A4 /* FyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B15091A241F41C1009AD1A4 /* FyViewModel.swift */; };
+		0B150930241F8D31009AD1A4 /* FyParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B15092F241F8D31009AD1A4 /* FyParams.swift */; };
 		2289899513632DC62AC3BE99 /* Pods_FyNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CC4D97A59CC52608C5B614 /* Pods_FyNetWork.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		0B150914241F365A009AD1A4 /* FyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyResponse.swift; sourceTree = "<group>"; };
 		0B150918241F3C16009AD1A4 /* FyNetError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FyNetError.swift; sourceTree = "<group>"; };
 		0B15091A241F41C1009AD1A4 /* FyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FyViewModel.swift; sourceTree = "<group>"; };
+		0B15092F241F8D31009AD1A4 /* FyParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FyParams.swift; sourceTree = "<group>"; };
 		18CC4D97A59CC52608C5B614 /* Pods_FyNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FyNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC11AEE301F58D69BDD15EC9 /* Pods-FyNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyNetWork.debug.xcconfig"; path = "Target Support Files/Pods-FyNetWork/Pods-FyNetWork.debug.xcconfig"; sourceTree = "<group>"; };
 		E1331CE48E1543381C51DFFB /* Pods-FyNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FyNetWork.release.xcconfig"; path = "Target Support Files/Pods-FyNetWork/Pods-FyNetWork.release.xcconfig"; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 		0B150903241F124D009AD1A4 /* FyNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				0B15092F241F8D31009AD1A4 /* FyParams.swift */,
 				0B15091A241F41C1009AD1A4 /* FyViewModel.swift */,
 				0B150918241F3C16009AD1A4 /* FyNetError.swift */,
 				0B150904241F1276009AD1A4 /* FyNetworkApi.swift */,
@@ -361,6 +364,7 @@
 				0B150915241F365A009AD1A4 /* FyResponse.swift in Sources */,
 				0B15091B241F41C1009AD1A4 /* FyViewModel.swift in Sources */,
 				0B150905241F1276009AD1A4 /* FyNetworkApi.swift in Sources */,
+				0B150930241F8D31009AD1A4 /* FyParams.swift in Sources */,
 				0B150913241F2E2C009AD1A4 /* FySongResponse.swift in Sources */,
 				0B15090D241F21C7009AD1A4 /* FyUrls.swift in Sources */,
 				0B1508D8241F10A4009AD1A4 /* ViewController.swift in Sources */,
