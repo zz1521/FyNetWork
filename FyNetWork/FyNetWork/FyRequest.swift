@@ -14,12 +14,23 @@ import RxSwift
 let requestTimeoutClosure = { (endpoint: Endpoint, done: @escaping MoyaProvider<FyApi>.RequestResultClosure) in
     do {
         var request = try endpoint.urlRequest()
-        request.timeoutInterval = 10
+
+        //根据不同接口判断携带不同的请求头 //这个也可以根据接口判断，切换超时时长
+        if(request.url?.absoluteString.contains(FyUrls.searchMusic.lowercased()) ?? false){
+            request.timeoutInterval = 30
+            request.addValue("zhangsan", forHTTPHeaderField: "user")
+            request.addValue("ahsfksjfhskdfhsjdkf", forHTTPHeaderField: "cookie")
+        }else{
+            //.....
+            request.timeoutInterval = 10
+        }
         done(.success(request))
     } catch {
         return
     }
 }
+
+
 class FyRequest: NSObject {
     static let request = FyRequest()
     
