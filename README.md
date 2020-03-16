@@ -14,7 +14,7 @@
 
 ### FyRequest.swift
 
-主要放Api接口请求方法
+主要放Api接口请求方法具体实现
 
 ### FyResponse.swift
 
